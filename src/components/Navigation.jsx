@@ -93,13 +93,13 @@ const Navigation = () => {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <button
               className="block px-3 py-2 text-base text-white hover:opacity-50 cursor-pointer"
-              onClick={() => navigate("/Recreation")}
+              onClick={() => navigate("/uoRec/Recreation")}
             >
               Recreation
             </button>
             <button
               className="block px-3 py-2 text-base text-white hover:opacity-50 cursor-pointer"
-              onClick={() => navigate("/Swimming")}
+              onClick={() => navigate("/uoRec/Swimming")}
             >
               Swimming
             </button>
