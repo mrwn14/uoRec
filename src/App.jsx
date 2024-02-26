@@ -18,9 +18,9 @@ function App() {
       <Router>
         <Navigation />
         <Routes>
-          <Route path="/uoRec/" element={<Main />} />
+          <Route path="/uoRec" element={<Main />} />
           <Route
-            path="/uoRec/Recreation/"
+            path="/uoRec/Recreation"
             element={
               <Recreation
                 selected={selectedRec}
@@ -30,7 +30,7 @@ function App() {
             }
           />
           <Route
-            path="/uoRec/Swimming/"
+            path="/uoRec/Swimming"
             element={
               <Swimming
                 selected={selectedSwi}

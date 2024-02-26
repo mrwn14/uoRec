@@ -12,7 +12,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <a
-              onClick={() => navigate("/uoRec/")}
+              onClick={() => navigate("/uoRec")}
               className="flex-shrink-0 flex items-center space-x-3 cursor-pointer"
             >
               {/* <img src="public\logo.png" className="h-10" alt="uoRec" /> */}
