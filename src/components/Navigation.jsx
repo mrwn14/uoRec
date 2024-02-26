@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const Navigation = () => {
   const navigate = useNavigate();
@@ -23,12 +23,18 @@ const Navigation = () => {
           </div>
           <div className="hidden md:block">
             <div className="flex space-x-4">
-              <button
+              {/* <button
                 className="px-3 py-2 flex items-center text-lg text-white hover:opacity-50 cursor-pointer"
                 onClick={() => navigate("/uoRec/Recreation")}
               >
                 Recreation
-              </button>
+              </button> */}
+              <Link
+                className="px-3 py-2 flex items-center text-lg text-white hover:opacity-50 cursor-pointer"
+                to="/uoRec/Recreation"
+              >
+                Recreation
+              </Link>
               <button
                 className="px-3 py-2 flex items-center text-lg text-white hover:opacity-50 cursor-pointer"
                 onClick={() => navigate("/uoRec/Swimming")}
