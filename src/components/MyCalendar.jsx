@@ -38,7 +38,7 @@ const MyCalendar = (props) => {
         if (props.selected !== 0) {
           let databaseRef;
           if (rec === "swi") {
-            databaseRef = ref(db, "swimming/" + props.selected);
+            databaseRef = ref(db, "Swimming/" + props.selected);
           } else {
             databaseRef = ref(db, "Recreation/" + props.selected);
           }
