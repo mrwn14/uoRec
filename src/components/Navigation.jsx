@@ -15,7 +15,7 @@ const Navigation = () => {
               onClick={() => navigate("/uoRec/")}
               className="flex-shrink-0 flex items-center space-x-3 cursor-pointer"
             >
-              <img src="public\logo.png" className="h-10" alt="uoRec" />
+              {/* <img src="public\logo.png" className="h-10" alt="uoRec" /> */}
               <span className="text-2xl font-semibold whitespace-nowrap text-white">
                 uoRec
               </span>
