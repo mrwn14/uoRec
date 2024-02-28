@@ -20,7 +20,7 @@ Enter **uoRec**! We've scrapped the hassle and created a one-stop hub where you 
 
 ## 📱 How to Dive In
 
-1. **Hop Onboard**: Head over to [uoRec](#) to start your recreation journey.
+1. **Hop Onboard**: Head over to [uoRec](www.uorec.com) to start your recreation journey.
 
 2. **Pick Your Play**: Select your sport of choice from our user-friendly interface.
 
