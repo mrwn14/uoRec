@@ -12,7 +12,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <a
-              onClick={() => navigate("/uoRec")}
+              onClick={() => navigate("")}
               className="flex-shrink-0 flex items-center space-x-3 cursor-pointer"
             >
               {/* <img src="public\logo.png" className="h-10" alt="uoRec" /> */}
@@ -31,13 +31,13 @@ const Navigation = () => {
               </button> */}
               <button
                 className="px-3 py-2 flex items-center text-lg text-white hover:opacity-50 cursor-pointer"
-                onClick={() => navigate("/uoRec/Swimming")}
+                onClick={() => navigate("Recreation")}
               >
-                Swimming
+                Recreation
               </button>
               <button
                 className="px-3 py-2 flex items-center text-lg text-white hover:opacity-50 cursor-pointer"
-                onClick={() => navigate("/uoRec/Swimming")}
+                onClick={() => navigate("Swimming")}
               >
                 Swimming
               </button>
@@ -93,13 +93,13 @@ const Navigation = () => {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <button
               className="block px-3 py-2 text-base text-white hover:opacity-50 cursor-pointer"
-              onClick={() => navigate("/uoRec/Recreation")}
+              onClick={() => navigate("Recreation")}
             >
               Recreation
             </button>
             <button
               className="block px-3 py-2 text-base text-white hover:opacity-50 cursor-pointer"
-              onClick={() => navigate("/uoRec/Swimming")}
+              onClick={() => navigate("Swimming")}
             >
               Swimming
             </button>
