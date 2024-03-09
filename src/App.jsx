@@ -4,6 +4,7 @@ import {
   Route,
   Routes,
   HashRouter,
+  Navigate,
 } from "react-router-dom";
 import Navigation from "./components/Navigation";
 import Main from "./pages/Main";
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <HashRouter>
+      <Router>
         <Navigation />
         <Routes>
           <Route path="" element={<Main />} />
@@ -45,7 +46,7 @@ function App() {
           <Route path="*" element={<NoPage />} />
         </Routes>
         <Footer />
-      </HashRouter>
+      </Router>
     </div>
   );
 }

@@ -84,7 +84,6 @@ const MyCalendar = (props) => {
     borderWidth: "2px",
   };
 
-  console.log(events);
   return (
     <div className="mx-4 md:mx-10 pb-16">
       <Calendar
