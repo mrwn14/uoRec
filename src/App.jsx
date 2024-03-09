@@ -1,8 +1,11 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import MyCalendar from "./components/MyCalendar";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  HashRouter,
+} from "react-router-dom";
 import Navigation from "./components/Navigation";
-import SportSelection from "./components/SportSelection";
 import Main from "./pages/Main";
 import Recreation from "./pages/Recreation";
 import Swimming from "./pages/Swimming";
@@ -15,7 +18,7 @@ function App() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <Router>
+      <HashRouter>
         <Navigation />
         <Routes>
           <Route path="" element={<Main />} />
@@ -42,7 +45,7 @@ function App() {
           <Route path="*" element={<NoPage />} />
         </Routes>
         <Footer />
-      </Router>
+      </HashRouter>
     </div>
   );
 }
